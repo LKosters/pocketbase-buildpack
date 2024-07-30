@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-echo "default_process_types:"
-echo "  web: ./pocketbase serve"
+cat <<EOF
+default_process_types:
+  web: ./pocketbase serve
+EOF

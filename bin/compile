@@ -4,7 +4,6 @@ set -e
 BUILD_DIR=$1
 CACHE_DIR=$2
 
-echo "Running PocketBase..."
+echo "Preparing PocketBase..."
 cd $BUILD_DIR
 chmod +x pocketbase
-./pocketbase serve
