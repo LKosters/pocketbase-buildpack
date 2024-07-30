@@ -6,4 +6,5 @@ CACHE_DIR=$2
 
 echo "Running PocketBase..."
 cd $BUILD_DIR
+chmod +x pocketbase
 ./pocketbase serve
