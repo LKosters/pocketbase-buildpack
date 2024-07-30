@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+echo "PocketBase Buildpack"
+exit 0
